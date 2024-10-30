@@ -4,8 +4,10 @@
   </a>
 </div>
 <div id='menu'>
-  <a href="load.php">부하테스트</a>
-  <!--
-  <a href="rds.php">RDS</a>
-  -->
+  <ul>
+    <li><a href="load.php">부하테스트</a></li>
+    <!--
+    <li><a href="rds.php">RDS</a></li>
+    -->
+  </ul>
 </div>
