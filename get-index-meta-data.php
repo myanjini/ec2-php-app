@@ -32,7 +32,7 @@ $publicIp = getMetadata('public-ipv4', $token);
 
 
 echo "<table>";
-echo "<tr><th>Meta-Data</th><th>Value</th></tr>";
+echo "<tr><th width='40%'>Meta-Data</th><th width='60%'>Value</th></tr>";
 echo "<tr><td>리전</td><td><i>" . $region . "</i></td><tr>";
 echo "<tr><td>가용 영역</td><td><i>" . $availabilityZone . "</i></td><tr>";
 echo "<tr><td>인스턴스 ID</td><td><i>" . $instanceId . "</i></td><tr>";
